@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints numbers 0-9 using putchar, we exclude the use of char or printf
+ *
 (*
  * Return: 0 on success
  */

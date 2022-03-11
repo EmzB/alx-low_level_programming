@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 * main - Print 0-9 digit numbers using only putchar
 *

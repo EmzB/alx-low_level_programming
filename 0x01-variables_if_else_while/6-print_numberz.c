@@ -1,17 +1,17 @@
 #include <stdio.h>
-/**
- * main - prints numbers 0-9 using putchar
- * 
- * Return: 0 on success
- */
-int main(void)
-{	int i = '0';
 
-	while (i <= '9')
-	{
-		putchar(i);
-		i++;
-	}
+/**
+* main - Print 0-9 digit numbers using only putchar
+*
+* Return: 0 is always (Success)
+*/
+int main(void)
+{
+	int digit;
+
+	for (digit = 0; digit < 10; digit++)
+	putchar(digit + '0');
+
 	putchar('\n');
-	return (0);
-}
+
+	return (0)

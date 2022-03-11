@@ -1,23 +1,23 @@
 #include <stdio.h>
 
 /**
-* main - Print combinations of two digit numbers
+* main - Prints possible combinations of two digits
 *
 * Return: Always 0 (Success)
 */
 int main(void)
 {
-  int x:;
-  int y;
+  int tens;
+  int ones;
 
-  for (x = 0; x <= 9; x++)
+  for (tens = 0; tens <= 9; tens++)
     {
-      for (y = x + 1; y <= 9; y++)
+      for (ones = tens + 1; ones <= 9; ones++)
 	{
-	  putchar(x + '0');
-	  putchar(y + '0');
+	  putchar(tens + '0');
+	  putchar(ones + '0');
 
-	  if (x < 8)
+	  if (tens < 8)
 	    {
 	      putchar(',');
 	      putchar(' ');

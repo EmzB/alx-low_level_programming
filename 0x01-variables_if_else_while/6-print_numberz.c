@@ -1,16 +1,19 @@
 #include <stdio.h>
 /**
-* main - Print 0-9 digit numbers using only putchar
-*
-* Return: 0 is always (Success)
-*/
+ * main - prints numbers 0-9 without using char or printf/puts,
+ * and putchar 2x max
+(*
+ * Return: 0 on success
+ */
 int main(void)
 {
-        int digit;
+	int i = '0';
 
-        for (digit = 0; digit < 10; digit++)
-        putchar(digit + '0');
-
-        putchar('\n');
-
-        return (0)
+	while (i <= '9')
+	{
+		putchar(i);
+		i++;
+	}
+	putchar('\n');
+	return (0);
+}

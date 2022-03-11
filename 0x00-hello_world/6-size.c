@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
  * main - Start of the program
  *
  * Return: Return value is zero
  */
-
 int main(void)
 {
         char acharacter;

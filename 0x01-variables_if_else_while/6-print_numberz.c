@@ -2,7 +2,6 @@
 /**
  * main - prints numbers 0-9 using putchar
  * 
-(*
  * Return: 0 on success
  */
 int main(void)

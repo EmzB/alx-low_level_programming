@@ -11,7 +11,7 @@ int i = 0;
 
 while (val[i] != '\0')
 	{
-	char puts = val[i];
+	char q= val[i];
 
 	_putchar(q);
 	i++;

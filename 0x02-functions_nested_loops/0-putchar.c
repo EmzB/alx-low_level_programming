@@ -6,14 +6,14 @@
  */
 int main(void)
 {
-char str[] = "putchar";
+char val[] = "_putchar";
 int i = 0;
 
-while (str[i] != '\0')
+while (val[i] != '\0')
 	{
-	char puts = str[i];
+	char puts = val[i];
 
-	_putchar(puts);
+	_putchar(q);
 	i++;
 	}
 return (0);

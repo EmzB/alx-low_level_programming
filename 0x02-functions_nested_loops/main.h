@@ -1,1 +1,1 @@
-_putchar(arr[i]);
+_putchar(a[i]);

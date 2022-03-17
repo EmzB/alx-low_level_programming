@@ -1,1 +1,1 @@
-_putchar(a[i]);
+char puts = str[i];

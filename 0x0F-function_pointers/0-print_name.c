@@ -2,12 +2,14 @@
 
 /**
  * print_name - prints a name
- * @name: string
- * @f: function
+ * @name: name's main
+ * @f: void function
  */
 
 void print_name(char *name, void (*f)(char *))
 {
-if (f != NULL)
-	f(name);
+	if (name && f)
+	{
+		f(name);
+	}
 }
